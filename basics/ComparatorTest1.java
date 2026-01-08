@@ -7,11 +7,12 @@ public class ComparatorTest1 {
 
     public static void main(String[] args){
         int[][] matrix={{1,2},{6,3},{4,5}};
+
         CompareFirstIndex comp1=new CompareFirstIndex();
         Arrays.sort(matrix,comp1);
     }
 
-    static class CompareFirstIndex implements Comparator<int[]>{
+    public static class CompareFirstIndex implements Comparator<int[]>{ // implements Comparator<T>
 
         @Override
         public int compare(int[] arg0, int[] arg1) {

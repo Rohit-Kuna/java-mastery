@@ -1,6 +1,6 @@
 package basics;
 
-public class Matrix {
+public class Matrix2D {
     public static void main(String[] args){
         int[][] matrix={{12,34,6},{4,5,6},{9,6,0}};
 
