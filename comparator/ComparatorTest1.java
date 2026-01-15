@@ -1,4 +1,4 @@
-package basics;
+package comparator;
 import java.util.Comparator;
 import java.util.Arrays;
 
