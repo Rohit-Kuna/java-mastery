@@ -2,6 +2,7 @@ package collection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -95,7 +96,13 @@ public class LinkedListTest {
         String tail=ll1.getLast();
 
         /* Traversing */
-        String temp=head;
-        while(temp.)
+        // Using Iterator
+        Iterator<String> it=ll1.iterator();
+        while(it.hasNext()){
+            // String value=it.next();
+            // System.out.println(value);
+            System.out.println(it.next());
+        }
+        
     }
 }

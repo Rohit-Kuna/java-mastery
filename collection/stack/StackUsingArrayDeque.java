@@ -12,7 +12,6 @@ public class StackUsingArrayDeque {
 
         // isEmpty
         s1.isEmpty();
-
         
         s1.push(3);
         s1.pop();
