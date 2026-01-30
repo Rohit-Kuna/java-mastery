@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 
-public class HashMapTest {
+public class HashMapOps {
     public static void main(String[] args){
         Map<String,Integer> hm1=new HashMap<>();
 
@@ -62,6 +62,9 @@ public class HashMapTest {
         boolean eq1=m1.equals(m2);
         System.out.println(eq1);
 
+        // Printing Map will automatically pretty print it
+        // as HashMap has toString overridden
+        System.out.println(hm1);
 
     }
 }
