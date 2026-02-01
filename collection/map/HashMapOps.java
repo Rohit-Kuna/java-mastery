@@ -29,7 +29,7 @@ public class HashMapOps {
         // hm.getOrDefault(key,defaultValue) -> useful in case of calculating frequency
         hm1.getOrDefault("Shubham",0);
 
-        // Update or set a value for existing key, use hm.put(sameKey, newVal) 
+        // Update or set a value for existing key, use hm.put(sameKey, newVal)
         hm1.put("Naina", 87);
 
         /* key set */
@@ -38,7 +38,7 @@ public class HashMapOps {
 
         // hm.values() -> returns Collection of values
         Collection<Integer> vals=hm1.values();
-        
+
         /* entrySet */
         Set<Map.Entry<String,Integer>> entrySet1=hm1.entrySet();
 
@@ -49,6 +49,9 @@ public class HashMapOps {
             entry.getValue(); // access value
             entry.setValue(8); // update or set value
         }
+
+        // Important
+        Map.Entry<Integer,String> entry=Map.entry(1,"P"); // For a single entry we can also use Map.entry(k,v) method
 
         // equality
         Map<Integer,String> m1=new HashMap<>();

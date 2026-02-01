@@ -3,7 +3,7 @@ package collection.map;
 import java.util.TreeMap;
 import java.util.SortedMap;
 
-public class TreeMapTest2 {
+public class SortedMapTest {
     public static void main(String[] args){
         SortedMap<Integer,String> hm1=new TreeMap<>();
         hm1.put(6,"Kyle");

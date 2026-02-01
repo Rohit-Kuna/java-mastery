@@ -18,6 +18,7 @@ public class LRUCache<K,V> extends LinkedHashMap<K,V> {
     }
 
     public static void main(String[] args){
+        // Can use Map / LinkedHashMap / LRUCache as ref type
         LRUCache<String,Number> fruits = new LRUCache<>(3);
         fruits.put("apple",10);
         fruits.put("banana",12);
@@ -28,7 +29,7 @@ public class LRUCache<K,V> extends LinkedHashMap<K,V> {
         fruits.get("apple");
         fruits.get("banana");
         fruits.get("apple");
-        fruits.put("plum",100);
+        fruits.put("plum",100); // as pineapple is the least recently accessed will be removed
 
         System.out.println(fruits);
     }

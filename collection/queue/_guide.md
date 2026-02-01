@@ -1,0 +1,7 @@
+- Queue #interface (queue)
+    - LinkedList #implementation_class
+    - ArrayDeque #implementation_class
+- PriorityQueue <-> PriorityQueue #implementation_class (min/max-heaps)
+- Deque #interface (double ended queue)
+    - LinkedList #implementation_class
+    - ArrayDeque #implementation_class

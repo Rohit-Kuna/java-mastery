@@ -1,4 +1,4 @@
-package collection;
+package collection.linkedlist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -36,14 +36,14 @@ public class LinkedListTest {
 
         /* Set */
         ll1.set(2,"x"); // O(N) -> as we need to traverse the indexes from start
-        
+
         /* Remove a node */
         ll1.remove(); // removes last by default // O(N) -> need to traverse
 
         // remove by index
         ll1.remove(3); //  o(N) -> need to traverse
 
-        // remove by Reference 
+        // remove by Reference
         ll1.remove("g"); // does find and remove // O(n) -> need to traverse
 
         // bulk remove
@@ -64,7 +64,7 @@ public class LinkedListTest {
         ll1.clear();
 
         /* Existence */
-        ll1.contains("p"); 
+        ll1.contains("p");
 
         /* Accessing element by index, index of */
 
@@ -103,6 +103,6 @@ public class LinkedListTest {
             // System.out.println(value);
             System.out.println(it.next());
         }
-        
+
     }
 }

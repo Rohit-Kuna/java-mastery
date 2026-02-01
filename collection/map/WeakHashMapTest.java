@@ -16,7 +16,7 @@ public class WeakHashMapTest {
         System.out.println(p0);
         System.out.println(p1);
 
-        // until and unless the key ref is there the vlaue is not 
+        // until and unless the key ref is there the value is not
         WeakHashMap<String,Integer> persons=new WeakHashMap<>();
         persons.put(new String("p1"), 1);
         persons.put(new String("p2"), 2);
