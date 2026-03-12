@@ -1,4 +1,4 @@
-package basics;
+package misc;
 
 import java.util.Arrays;
 import java.util.stream.Stream;
@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 
 public class Snippets{
     public static void main(String[] args){
-        
+
         // max in array
         int[] arr={1,23,30,14,5};
         int max=Arrays.stream(arr).max().getAsInt();
@@ -32,7 +32,7 @@ public class Snippets{
 
         // what is boxed and mapToInt
 
-        
+
     }
 
     static int getMax(int[] arr){

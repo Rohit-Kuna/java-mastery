@@ -2,7 +2,7 @@ package comparator;
 
 import java.util.List;
 
-import basics.Student;
+import misc.Student;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -21,7 +21,7 @@ public class ComparatorTest5 {
         });
         students.sort((s1,s2)->Integer.compare(s1.getMarks(),s2.getMarks()));
         students.sort(Comparator.comparing(Student::getMarks));
-        
+
         // Just like Arrays.sort, we have Comparator.sort(obj,new Comparator<T>{...});
         // ASC
         Collections.sort(students,Comparator.comparing(Student::getMarks));
@@ -31,13 +31,13 @@ public class ComparatorTest5 {
 
         // ASC
         Collections.sort(students,Comparator.comparing(Student::getName));
-        
+
         // DESC
         Collections.sort(students,Comparator.comparing(Student::getName, Comparator.reverseOrder()));
 
         // first by name asc, then highest marks order
         Collections.sort(students,Comparator.comparing(Student::getName).thenComparing(Student::getMarks, Comparator.reverseOrder()));
-    
+
 
         List<Integer> numbers=new ArrayList<>(Arrays.asList(1,2,3,4));
         Collections.sort(numbers,Comparator.naturalOrder()); // ASC

@@ -1,6 +1,6 @@
 package collection.list;
 
-import basics.Student;
+import misc.Student;
 
 public class Arrays {
     public static void main(String[] args){

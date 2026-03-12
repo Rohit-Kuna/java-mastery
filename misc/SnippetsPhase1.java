@@ -1,4 +1,4 @@
-package basics;
+package misc;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -11,7 +11,7 @@ public class SnippetsPhase1 {
         // max
 
         int[][] matrix={{1,2},{6,3},{4,5}};
-        // sort acc to 1st element 
+        // sort acc to 1st element
         // using Anonymous function
         Arrays.sort(matrix, new Comparator<int[]>() {
             @Override
@@ -22,7 +22,7 @@ public class SnippetsPhase1 {
         // using lambda
         Arrays.sort(matrix,(a,b)->Integer.compare(a[0], b[0]));
 
-        
+
 
 
     }
@@ -47,5 +47,5 @@ public class SnippetsPhase1 {
         return sum;
     }
 
-    
+
 }

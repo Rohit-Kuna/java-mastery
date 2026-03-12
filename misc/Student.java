@@ -1,4 +1,4 @@
-package basics;
+package misc;
 
 public class Student {
 
