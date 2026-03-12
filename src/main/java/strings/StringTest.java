@@ -15,7 +15,7 @@ public class StringTest {
         String numString2= String.valueOf(num);
 
         // Length -> s1.length() method
-        int len=s1.length(); 
+        int len=s1.length();
 
         // Concatenation
         String s2=s1+"thanks";
@@ -34,7 +34,7 @@ public class StringTest {
         // Substring -> similar to python slicing
         // s.substring(beginIndex) -> beginIndex to lastIndex
         s1.substring(2);
-        
+
         // s.substring(beginIndex,endIndex] -> endIndex is excluded
         s1.substring(1,4);
 

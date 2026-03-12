@@ -13,7 +13,7 @@ public class CharTest {
 
         // Object to primitive
         Character B1='k';
-        
+
         // auto
         char b1= B1;
 
@@ -23,7 +23,7 @@ public class CharTest {
         // char to String
         char c1='p';
         String s1=String.valueOf(c1);
-        
+
         // String to char
         String s2="l";
         char c2=s2.charAt(0);
@@ -42,7 +42,7 @@ public class CharTest {
         // character to int
         Character.getNumericValue('7');
 
-        // ------------------------------->        
+        // ------------------------------->
 
         // case check
         Character.isLowerCase('b');
@@ -65,12 +65,12 @@ public class CharTest {
         // Primitive
         int compareRes1=Character.compare(c1, c2);
         int compareRes2=Character.compare(E, F); // E, F are auto converted to primitive char
-        
+
         // Objects Compare
         // Character implements Compable, hence compareTo would be available
         int compareRes3=E.compareTo(F);
 
-        // 
+        //
 
     }
 }
